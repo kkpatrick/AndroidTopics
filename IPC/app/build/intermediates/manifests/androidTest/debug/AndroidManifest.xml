@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.nyu.xiaoqianyu.ipc.test">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="21" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="edu.nyu.xiaoqianyu.ipc"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for edu.nyu.xiaoqianyu.ipc"/>
+</manifest>
