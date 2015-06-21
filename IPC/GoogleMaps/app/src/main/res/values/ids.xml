@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="streetView" type="id">streetView</item>
+    <item name="mapView" type="id">mapView</item>
+</resources>
